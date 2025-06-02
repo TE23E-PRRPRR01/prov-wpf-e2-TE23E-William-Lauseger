@@ -1,0 +1,35 @@
+﻿<Window x:Class="prov_wpf_e2_TE23E_William_Lauseger.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:prov_wpf_e2_TE23E_William_Lauseger"
+        mc:Ignorable="d"
+        Title="GymApp" SizeToContent="WidthAndHeight"
+        Background="#f2db59">
+    <StackPanel Margin="10">
+        <Label FontSize="30" FontWeight="Bold" Margin="0,0,0,10">Träningspass</Label>
+        <Label FontSize="16" Margin="0,0,0,10">Del 1: Skapa och spara Träningspass</Label>
+        <StackPanel Orientation="Horizontal">
+            <Label Width="200">Aktivitet: </Label>
+            <TextBox Width="150" Name="txbAktivitet" Margin="0,0,0,10"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Width="200">Längd (minuter): </Label>
+            <TextBox Width="150" Name="txbLangd" Margin="0,0,0,10"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Width="200">Intensitet (Låg, Medel, Hög): </Label>
+            <TextBox Width="150" Name="txbIntensitet" Margin="0,0,0,10"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Button Click="KlickKontrolleraPass" Width="100" Margin="5" Padding="5">Kontrollera pass</Button>
+            <Button Click="KlickSpara" Width="100" Margin="5" Padding="5">Spara pass</Button>
+            <Button Click="KlickVisaPass" Width="120" Margin="5" Padding="5">Visa alla pass</Button>
+        </StackPanel>
+        <Label FontWeight="Bold" Margin="0,5,0,5">Resultat: </Label>
+        <TextBox Name="txbPass" Margin="0,0,0,10" IsReadOnly="True"></TextBox>
+        <Label FontWeight="Bold" Margin="0,5,0,5">Sparade pass i listan</Label>
+        <TextBox Name="txbLista" Height="80" IsReadOnly="True"></TextBox>
+    </StackPanel>
+</Window>

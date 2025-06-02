@@ -1,0 +1,1707 @@
+25-06-02 08:59 Session started
+----------------------------------------
+09:01:58 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\App.xaml
+----------------------------------------
+09:02:03 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\MainWindow.xaml
+----------------------------------------
+09:02:20 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\prov-wpf-e2-TE23E-William-Lauseger.csproj
+----------------------------------------
+09:02:47 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\MainWindow.xaml
+----------------------------------------
+09:03:03 009:009 > Title="MainWindow" Height="450" Width="800">
+09:03:08 007:008 > Title="MainWindow" Height="450" Width="800">
+09:03:18 007:008 > Title="GymApp" SizeToContent="WidthAndHeight"
+        Background="#f2db59">
+    <StackPanel Margin="10">
+        <Label Content="Träningspass" FontSize="30" FontWeight="Bold" Margin="0,0,0,10"/>
+        <Label Content="Del 1: Skapa och spara träningspass" FontSize="16" Margin="0,0,0,10"/>
+        <StackPanel Orientation="Horizontal">
+            <Label Width="200" Content="Aktivitet:"/>
+            <TextBox Width="150" Name="txbAktivitet" Margin="0,0,0,10"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Width="200" Content="Längd (minuter):"/>
+            <TextBox Width="150" Name="txbLangd" Margin="0,0,0,10"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Width="200" Content="Intensitet (Låg, Medel, Hög):"/>
+            <TextBox Width="150" Name="txbIntensitet" Margin="0,0,0,10"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Button Content="Kontrollera pass" Click="KlickVisa" Width="100" Margin="5" Padding="5"/>
+            <Button Content="Spara pass" Click="KlickSpara" Width="100" Margin="5" Padding="5"/>
+            <Button Content="Visa alla pass" Click="KlickVisaPass" Width="120" Margin="5" Padding="5"/>
+        </StackPanel>
+        <Label Content="Resultat:" FontWeight="Bold" Margin="0,5,0,5"/>
+        <TextBox Name="txbPass" Margin="0,0,0,10" IsReadOnly="True"/>
+        <Label Content="Sparade pass i listan:" FontWeight="Bold" Margin="0,5,0,5"/>
+        <TextBox Name="txbLista" Height="80" IsReadOnly="True"/>
+
+        <Label Content="Del 2: Visa statistik" FontSize="16" Margin="0,20,0,10"/>
+        <Button Content="Visa statistik" Click="KlickVisaStatistik" Width="120" Margin="5" Padding="5" HorizontalAlignment="Left"/>
+        <StackPanel Orientation="Horizontal">
+            <Label Width="200" Content="Antal pass:"/>
+            <TextBox Width="150" Name="txbAntalPass" Margin="0,0,0,10" IsReadOnly="True"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Width="200" Content="Total längd (minuter):"/>
+            <TextBox Width="150" Name="txbTotalMinuter" Margin="0,0,0,10" IsReadOnly="True"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Width="200" Content="Längsta pass:"/>
+            <TextBox Width="150" Name="txbMaxMinuter" Margin="0,0,0,10" IsReadOnly="True"/>
+        </StackPanel>
+    </StackPanel>
+</Window>
+
+09:03:53 010:087 > <
+09:03:58 010:087 > <>
+09:03:58 010:088 > </Label>
+09:04:20 010:090 > l
+09:04:20 010:091 > la
+09:04:20 010:092 > lab
+09:04:21 010:093 > labe
+09:04:21 010:094 > label
+09:04:50 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\prov-wpf-e2-TE23E-William-Lauseger.csproj
+----------------------------------------
+09:05:10 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\MainWindow.xaml
+----------------------------------------
+09:05:25 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\MainWindow.xaml
+----------------------------------------
+09:05:34 010:087 > label >
+09:05:34 010:088 > </Label>
+09:05:44 010:088 > T
+09:05:44 010:089 > Tr
+09:05:43 010:090 > Trä
+09:05:43 010:091 > Trän
+09:05:43 010:092 > Träni
+09:05:43 010:093 > Tränin
+09:05:44 010:094 > Träning
+09:05:44 010:095 > Tränings
+09:05:45 010:096 > Träningsp
+09:05:45 010:097 > Träningspa
+09:05:45 010:098 > Träningspas
+09:05:45 010:099 > Träningspass
+
+09:05:52 011:092 > >
+09:05:53 011:093 > </Label>
+09:06:14 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\MainWindow.xaml
+----------------------------------------
+09:06:42 011:093 > D
+09:06:42 011:094 > De
+09:06:44 011:095 > Del
+09:06:45 011:097 > Del 1
+09:06:47 011:098 > Del 1:
+09:06:49 011:100 > Del 1: S
+09:06:49 011:101 > Del 1: Sk
+09:06:50 011:102 > Del 1: Ska
+09:06:50 011:103 > Del 1: Skap
+09:06:50 011:104 > Del 1: Skapa
+09:06:51 011:106 > Del 1: Skapa o
+09:06:51 011:107 > Del 1: Skapa oc
+09:06:51 011:108 > Del 1: Skapa och
+09:06:53 011:110 > Del 1: Skapa och s
+09:06:53 011:111 > Del 1: Skapa och sp
+09:06:53 011:112 > Del 1: Skapa och spa
+09:06:53 011:113 > Del 1: Skapa och spar
+09:06:53 011:114 > Del 1: Skapa och spara
+09:06:55 011:116 > Del 1: Skapa och spara T
+09:06:55 011:117 > Del 1: Skapa och spara Tr
+09:06:56 011:118 > Del 1: Skapa och spara Trä
+09:06:56 011:119 > Del 1: Skapa och spara Trän
+09:06:56 011:120 > Del 1: Skapa och spara Träni
+09:06:56 011:121 > Del 1: Skapa och spara Tränin
+09:06:57 011:122 > Del 1: Skapa och spara Träning
+09:06:57 011:123 > Del 1: Skapa och spara Tränings
+09:06:58 011:124 > Del 1: Skapa och spara Träningsp
+09:06:58 011:125 > Del 1: Skapa och spara Träningspa
+09:06:58 011:126 > Del 1: Skapa och spara Träningspas
+09:06:58 011:127 > Del 1: Skapa och spara Träningspass
+
+09:07:14 013:051 > >
+09:07:14 013:052 > </Label>
+
+09:07:20 014:070 > >
+09:07:20 014:071 > </TextBox>
+
+09:07:30 017:057 > >
+09:07:31 017:058 > </Label>
+
+09:07:37 018:066 > >
+09:07:37 018:067 > </TextBox>
+
+09:07:48 021:070 > >
+09:07:49 021:071 > </Label>
+
+09:07:54 022:071 > >
+09:07:54 022:072 > </TextBox>
+
+09:08:02 025:099 > >
+09:08:02 025:100 > </Button>
+
+09:08:13 026:094 > >
+09:08:13 026:095 > </Button>
+
+09:08:19 027:101 > >
+09:08:19 027:102 > </Button>
+
+09:08:26 029:069 > >
+09:08:26 029:070 > </Label>
+
+09:08:33 030:067 > >
+09:08:33 030:068 > </TextBox>
+
+09:08:39 031:082 > >
+09:08:39 031:083 > </Label>
+
+09:08:45 032:062 > >
+09:08:45 032:063 > </TextBox>
+
+09:09:17 013:052 > A
+09:09:17 013:053 > Ak
+09:09:18 013:054 > Akt
+09:09:18 013:055 > Akti
+09:09:20 013:056 > Aktiv
+09:09:21 013:057 > Aktivi
+09:09:22 013:058 > Aktivit
+09:09:23 013:059 > Aktivite
+09:09:23 013:060 > Aktivitet
+09:09:29 013:061 > Aktivitet:
+
+09:09:46 017:058 > L
+09:09:46 017:059 > Lä
+09:09:47 017:060 > Län
+09:09:47 017:061 > Läng
+09:09:47 017:062 > Längd
+09:09:58 017:064 > Längd (
+09:10:00 017:065 > Längd (m
+09:10:00 017:066 > Längd (mi
+09:10:00 017:067 > Längd (min
+09:10:00 017:068 > Längd (minu
+09:10:01 017:069 > Längd (minut
+09:10:01 017:070 > Längd (minute
+09:10:01 017:071 > Längd (minuter
+09:10:02 017:072 > Längd (minuter)
+09:10:04 017:073 > Längd (minuter):
+
+09:10:19 021:071 > I
+09:10:19 021:072 > In
+09:10:19 021:073 > Int
+09:10:19 021:074 > Inte
+09:10:20 021:075 > Inten
+09:10:21 021:076 > Intens
+09:10:22 021:077 > Intensi
+09:10:23 021:078 > Intensit
+09:10:23 021:079 > Intensite
+09:10:23 021:080 > Intensitet
+09:10:25 021:082 > Intensitet (
+09:10:27 021:083 > Intensitet (L
+09:10:28 021:084 > Intensitet (Lå
+09:10:29 021:085 > Intensitet (Låg
+09:10:29 021:086 > Intensitet (Låg,
+09:10:31 021:088 > Intensitet (Låg, M
+09:10:32 021:089 > Intensitet (Låg, Me
+09:10:32 021:090 > Intensitet (Låg, Med
+09:10:32 021:091 > Intensitet (Låg, Mede
+09:10:32 021:092 > Intensitet (Låg, Medel
+09:10:34 021:093 > Intensitet (Låg, Medel,
+09:10:36 021:095 > Intensitet (Låg, Medel, H
+09:10:36 021:096 > Intensitet (Låg, Medel, Hö
+09:10:36 021:097 > Intensitet (Låg, Medel, Hög
+09:10:40 021:098 > Intensitet (Låg, Medel, Hög)
+09:10:49 021:099 > Intensitet (Låg, Medel, Hög):
+
+09:11:01 025:100 > K
+09:11:01 025:101 > Ko
+09:11:02 025:102 > Kon
+09:11:02 025:103 > Kont
+09:11:02 025:104 > Kontr
+09:11:02 025:105 > Kontro
+09:11:03 025:106 > Kontrol
+09:11:03 025:107 > Kontroll
+09:11:03 025:108 > Kontrolle
+09:11:03 025:109 > Kontroller
+09:11:04 025:110 > Kontrollera
+09:11:05 025:112 > Kontrollera p
+09:11:06 025:113 > Kontrollera pa
+09:11:06 025:114 > Kontrollera pas
+09:11:06 025:115 > Kontrollera pass
+
+09:11:15 026:095 > S
+09:11:16 026:096 > Sp
+09:11:16 026:097 > Spa
+09:11:16 026:098 > Spar
+09:11:16 026:099 > Spara
+09:11:17 026:101 > Spara p
+09:11:17 026:102 > Spara pa
+09:11:17 026:103 > Spara pas
+09:11:18 026:104 > Spara pass
+
+09:11:23 027:102 > V
+09:11:24 027:103 > Vi
+09:11:24 027:104 > Vis
+09:11:24 027:105 > Visa
+09:11:25 027:107 > Visa a
+09:11:25 027:108 > Visa al
+09:11:25 027:109 > Visa all
+09:11:25 027:110 > Visa alla
+09:11:26 027:112 > Visa alla p
+09:11:26 027:113 > Visa alla pa
+09:11:26 027:114 > Visa alla pas
+09:11:27 027:115 > Visa alla pass
+
+09:11:40 029:070 > R
+09:11:41 029:071 > Re
+09:11:41 029:072 > Res
+09:11:41 029:073 > Resu
+09:11:42 029:074 > Resul
+09:11:42 029:075 > Result
+09:11:42 029:076 > Resulta
+09:11:42 029:077 > Resultat
+09:11:45 029:078 > Resultat:
+
+09:11:55 031:083 > S
+09:11:55 031:084 > Sp
+09:11:56 031:085 > Spa
+09:11:56 031:086 > Spar
+09:11:56 031:087 > Spara
+09:11:57 031:088 > Sparad
+09:11:57 031:089 > Sparade
+09:11:59 031:091 > Sparade p
+09:11:59 031:092 > Sparade pa
+09:11:59 031:093 > Sparade pas
+09:11:59 031:094 > Sparade pass
+09:12:00 031:096 > Sparade pass i
+09:12:01 031:098 > Sparade pass i l
+09:12:01 031:099 > Sparade pass i li
+09:12:01 031:100 > Sparade pass i lis
+09:12:02 031:101 > Sparade pass i list
+09:12:02 031:102 > Sparade pass i lista
+09:12:02 031:103 > Sparade pass i listan
+
+09:15:58 027:013 > b
+09:15:59 027:014 > bu
+09:16:00 027:015 > but
+09:16:00 027:016 > butt
+09:16:00 027:017 > butto
+09:16:00 027:018 > button
+09:16:29 027:019 > button>
+09:16:29 027:020 > </button>
+09:16:41 027:099 > <
+09:16:43 027:099 > <>
+09:16:48 027:092 > /Button>
+09:16:55 027:013 > B
+09:16:56 027:014 > Bu
+09:16:59 027:013 > Button
+09:17:11 031:000 > <Labelss FontWeight="Bold" Margin="0,5,0,5">Sparade pass i listan</Labelss>
+09:17:12 031:000 > <Label FontWeight="Bold" Margin="0,5,0,5">Sparade pass i listan</Label>
+09:18:09 047:021 > -->
+09:18:09 034:008 > <!--
+09:18:30 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\MainWindow.xaml.cs
+----------------------------------------
+09:18:46 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\MainWindow.xaml.cs
+----------------------------------------
+
+09:18:53 023:004 > e
+09:18:53 023:005 > ev
+09:18:55 023:004 > private void (object sender, RoutedEventArgs e)
+    {
+        
+    }
+09:18:57 023:017 > K
+09:18:58 023:018 > Kl
+09:18:58 023:019 > Kli
+09:18:58 023:020 > Klic
+09:18:58 023:021 > Klick
+09:19:05 023:022 > KlickV
+09:19:06 023:023 > KlickVi
+09:19:06 023:024 > KlickVis
+09:19:06 023:025 > KlickVisa
+09:19:17 023:000 > private void KlickVisa(object sender, RoutedEventArgs e)
+    {
+        
+    }
+09:19:17 027:000 > private void KlickVisa(object sender, RoutedEventArgs e)
+    {
+        
+    }
+
+09:19:24 027:022 > S
+09:19:24 027:023 > Sp
+09:19:24 027:024 > Spa
+09:19:25 027:025 > Spar
+09:19:25 027:026 > Spara
+
+09:19:31 031:022 > V
+09:19:32 031:023 > Vi
+09:19:32 031:024 > Vis
+09:19:32 031:025 > Visa
+09:19:34 031:026 > VisaP
+09:19:35 031:027 > VisaPa
+09:19:35 031:028 > VisaPas
+09:19:35 031:029 > VisaPass
+09:20:52 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\MainWindow.xaml
+----------------------------------------
+09:21:31 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\MainWindow.xaml
+----------------------------------------
+09:21:40 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\MainWindow.xaml.cs
+----------------------------------------
+09:21:46 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\MainWindow.xaml
+----------------------------------------
+
+09:21:49 025:032 > K
+09:21:49 025:033 > Ko
+09:21:49 025:034 > Kon
+09:21:50 025:035 > Kont
+09:21:50 025:036 > Kontr
+09:21:50 025:037 > Kontro
+09:21:51 025:038 > Kontrol
+09:21:51 025:039 > Kontroll
+09:21:51 025:040 > Kontrolle
+09:21:51 025:041 > Kontroller
+09:21:52 025:042 > Kontrollera
+09:21:52 025:043 > KontrolleraP
+09:21:53 025:044 > KontrolleraPa
+09:21:53 025:045 > KontrolleraPas
+09:21:53 025:046 > KontrolleraPass
+09:21:56 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\MainWindow.xaml.cs
+----------------------------------------
+
+09:21:59 023:022 > K
+09:21:59 023:023 > Ko
+09:22:00 023:024 > Kon
+09:22:00 023:025 > Kont
+09:22:00 023:026 > Kontr
+09:22:00 023:027 > Kontro
+09:22:01 023:028 > Kontrol
+09:22:01 023:029 > Kontroll
+09:22:02 023:030 > Kontrolle
+09:22:02 023:031 > Kontroller
+09:22:02 023:032 > Kontrollera
+09:22:03 023:033 > KontrolleraP
+09:22:04 023:034 > KontrolleraPa
+09:22:04 023:035 > KontrolleraPas
+09:22:04 023:036 > KontrolleraPass
+09:22:21 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\MainWindow.xaml.cs
+----------------------------------------
+
+09:22:27 025:008 > /
+09:22:27 025:009 > //
+09:22:28 025:011 > // M
+09:22:29 025:012 > // Ma
+09:22:29 025:013 > // Mat
+09:22:29 025:014 > // Mata
+09:22:30 025:016 > // Mata i
+09:22:30 025:017 > // Mata in
+09:22:31 025:019 > // Mata in l
+09:22:31 025:020 > // Mata in lä
+09:22:32 025:021 > // Mata in län
+09:22:32 025:022 > // Mata in läng
+09:22:33 025:023 > // Mata in längd
+09:22:35 025:024 > // Mata in längd,
+09:22:37 025:026 > // Mata in längd, a
+09:22:37 025:027 > // Mata in längd, ak
+09:22:37 025:028 > // Mata in längd, akt
+09:22:38 025:029 > // Mata in längd, akti
+09:22:38 025:030 > // Mata in längd, aktiv
+09:22:38 025:031 > // Mata in längd, aktivi
+09:22:39 025:032 > // Mata in längd, aktivit
+09:22:39 025:033 > // Mata in längd, aktivite
+09:22:39 025:034 > // Mata in längd, aktivitet
+09:22:40 025:036 > // Mata in längd, aktivitet o
+09:22:40 025:037 > // Mata in längd, aktivitet oc
+09:22:40 025:038 > // Mata in längd, aktivitet och
+09:22:41 025:040 > // Mata in längd, aktivitet och i
+09:22:41 025:041 > // Mata in längd, aktivitet och in
+09:22:41 025:042 > // Mata in längd, aktivitet och int
+09:22:42 025:043 > // Mata in längd, aktivitet och inte
+09:22:42 025:044 > // Mata in längd, aktivitet och inten
+09:22:42 025:045 > // Mata in längd, aktivitet och intens
+09:22:43 025:046 > // Mata in längd, aktivitet och intensi
+09:22:43 025:047 > // Mata in längd, aktivitet och intensit
+09:22:43 025:048 > // Mata in längd, aktivitet och intensite
+09:22:43 025:049 > // Mata in längd, aktivitet och intensitet
+
+09:22:58 026:008 > s
+09:22:58 026:009 > st
+09:22:58 026:010 > str
+09:22:59 026:011 > stri
+09:22:59 026:012 > strin
+09:22:59 026:013 > string
+09:23:00 026:008 > string
+09:23:01 026:015 >  a
+09:23:01 026:016 >  ak
+09:23:01 026:017 >  akt
+09:23:02 026:018 >  akti
+09:23:02 026:019 >  aktiv
+09:23:02 026:020 >  aktivi
+09:23:03 026:021 >  aktivit
+09:23:03 026:022 >  aktivite
+09:23:03 026:023 >  aktivitet
+09:23:05 026:025 >  aktivitet =
+09:23:08 026:027 >  aktivitet = t
+09:23:09 026:028 >  aktivitet = tx
+09:23:09 026:029 >  aktivitet = txb
+09:23:12 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\MainWindow.xaml
+----------------------------------------
+09:23:17 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\MainWindow.xaml.cs
+----------------------------------------
+09:23:18 026:030 >  aktivitet = txbA
+09:23:19 026:031 >  aktivitet = txbAk
+09:23:19 026:032 >  aktivitet = txbAkt
+09:23:19 026:033 >  aktivitet = txbAkti
+09:23:20 026:034 >  aktivitet = txbAktiv
+09:23:20 026:035 >  aktivitet = txbAktivi
+09:23:20 026:036 >  aktivitet = txbAktivit
+09:23:20 026:037 >  aktivitet = txbAktivite
+09:23:20 026:038 >  aktivitet = txbAktivitet
+09:23:24 026:027 > txbAktivitet
+09:23:26 026:039 > .
+09:23:27 026:040 > .T
+09:23:27 026:041 > .Te
+09:23:27 026:042 > .Tex
+09:23:28 026:043 > .Text
+09:23:30 026:040 > Text
+09:23:30 026:044 > ;
+
+09:23:42 027:008 > s
+09:23:42 027:009 > st
+09:23:43 027:010 > str
+09:23:43 027:011 > stri
+09:23:43 027:012 > strin
+09:23:43 027:013 > string
+09:23:45 027:008 > string
+09:23:48 027:015 >  i
+09:23:48 027:016 >  in
+09:23:48 027:017 >  int
+09:23:49 027:018 >  inte
+09:23:49 027:019 >  inten
+09:23:50 027:020 >  intens
+09:23:51 027:021 >  intensi
+09:23:51 027:022 >  intensit
+09:23:52 027:023 >  intensite
+09:23:52 027:024 >  intensitet
+09:23:54 027:026 >  intensitet =
+09:23:57 027:028 >  intensitet = t
+09:23:57 027:029 >  intensitet = tx
+09:23:57 027:030 >  intensitet = txb
+09:23:59 027:031 >  intensitet = txbI
+09:23:59 027:032 >  intensitet = txbIn
+09:24:00 027:033 >  intensitet = txbInt
+09:24:00 027:034 >  intensitet = txbInte
+09:24:00 027:035 >  intensitet = txbInten
+09:24:01 027:036 >  intensitet = txbIntens
+09:24:01 027:037 >  intensitet = txbIntensi
+09:24:02 027:038 >  intensitet = txbIntensit
+09:24:02 027:039 >  intensitet = txbIntensite
+09:24:02 027:040 >  intensitet = txbIntensitet
+09:24:03 027:028 > txbIntensitet
+09:24:04 027:041 > .
+09:24:05 027:042 > .T
+09:24:05 027:043 > .Te
+09:24:05 027:044 > .Tex
+09:24:06 027:045 > .Text
+09:24:07 027:042 > Text
+09:24:07 027:046 > ;
+
+09:24:18 028:008 > s
+09:24:18 028:009 > st
+09:24:18 028:010 > str
+09:24:19 028:011 > stri
+09:24:19 028:012 > strin
+09:24:19 028:013 > string
+09:24:23 028:008 > stringi
+09:24:24 028:009 > stringin
+09:24:24 028:010 > stringint
+09:26:21 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\MainWindow.xaml.cs
+----------------------------------------
+09:26:25 028:008 > stringinti
+09:26:25 028:009 > stringintin
+09:26:26 028:010 > stringintint
+09:26:27 028:008 > int
+09:26:27 028:011 > .
+09:26:29 028:012 > .T
+09:26:29 028:013 > .Tr
+09:26:31 028:012 > TryParse
+09:26:34 028:020 > ()
+09:26:43 028:021 > t
+09:26:43 028:022 > tx
+09:26:44 028:023 > txb
+09:26:48 028:021 > txbLangd
+09:26:50 028:029 > ,
+09:26:52 028:031 > , o
+09:26:52 028:032 > , ou
+09:26:52 028:033 > , out
+09:26:53 028:031 > out
+09:26:54 028:035 >  i
+09:26:54 028:036 >  in
+09:26:55 028:037 >  int
+09:26:55 028:035 > int
+09:26:57 028:039 >  l
+09:26:59 028:040 >  lä
+09:27:01 028:039 > längd
+09:27:04 028:045 > ;
+09:27:22 028:008 > ;i
+09:27:22 028:009 > ;in
+09:27:22 028:010 > ;int
+09:27:24 028:008 > int
+09:27:29 028:012 >  l
+09:27:30 028:013 >  lä
+09:27:30 028:014 >  län
+09:27:30 028:015 >  läng
+09:27:31 028:016 >  längd
+09:27:33 028:017 >  längd=
+09:27:37 028:055 >  längd= T
+09:27:37 028:056 >  längd= Te
+09:27:38 028:057 >  längd= Tex
+09:27:38 028:058 >  längd= Text
+09:27:49 028:012 >  längd= Text t
+09:27:50 028:013 >  längd= Text tx
+09:27:51 028:014 >  längd= Text txb
+09:27:54 028:015 >  längd= Text txbL
+09:28:06 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\MainWindow.xaml
+----------------------------------------
+09:28:11 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\MainWindow.xaml.cs
+----------------------------------------
+09:28:13 028:016 >  längd= Text txbLa
+09:28:31 028:038 >  längd= Text txbLaT
+09:28:32 028:039 >  längd= Text txbLaTe
+09:28:32 028:040 >  längd= Text txbLaTex
+09:28:32 028:041 >  längd= Text txbLaText
+09:28:42 028:053 >  längd= Text txbLaTexta
+09:28:53 028:008 >  längd= Text txbLaTextat
+09:28:53 028:009 >  längd= Text txbLaTextatx
+09:28:53 028:010 >  längd= Text txbLaTextatxb
+09:28:54 028:011 >  längd= Text txbLaTextatxbl
+09:28:55 028:012 >  längd= Text txbLaTextatxbla
+09:28:58 028:011 >  längd= Text txbLaTextatxblaL
+09:28:58 028:012 >  längd= Text txbLaTextatxblaLa
+09:28:58 028:013 >  längd= Text txbLaTextatxblaLan
+09:29:00 028:014 >  längd= Text txbLaTextatxblaLang
+09:29:01 028:015 >  längd= Text txbLaTextatxblaLangd
+09:29:02 028:008 > txbLangd
+09:29:02 028:016 > .
+09:29:03 028:017 > .T
+09:29:03 028:018 > .Te
+09:29:04 028:019 > .Tex
+09:29:05 028:020 > .Text
+09:29:55 028:021 > .Textt
+09:29:57 028:022 > .Texttx
+09:29:59 028:023 > .Texttxb
+09:30:01 028:021 > txbLangd
+09:30:09 028:008 > s
+09:30:09 028:009 > st
+09:30:10 028:010 > str
+09:30:10 028:011 > stri
+09:30:10 028:012 > strin
+09:30:11 028:013 > string
+09:30:12 028:008 > string
+09:30:17 028:015 >  l
+09:30:19 028:016 >  la
+09:30:19 028:017 >  lan
+09:30:19 028:018 >  lang
+09:30:19 028:019 >  langd
+09:30:21 028:021 >  langd =
+09:30:23 028:023 >  langd = i
+09:30:26 028:023 >  langd = it
+09:30:26 028:024 >  langd = itx
+09:30:27 028:025 >  langd = itxb
+09:30:27 028:026 >  langd = itxbL
+09:30:28 028:027 >  langd = itxbLa
+09:30:28 028:028 >  langd = itxbLan
+09:30:28 028:029 >  langd = itxbLang
+09:30:29 028:030 >  langd = itxbLangd
+09:30:31 028:023 > txbLangd
+09:30:32 028:031 > .
+09:30:32 028:032 > .T
+09:30:32 028:033 > .Te
+09:30:33 028:034 > .Tex
+09:30:33 028:035 > .Text
+09:30:36 028:032 > Text
+09:30:36 028:036 > ;
+
+09:30:42 029:044 > T
+09:30:43 029:045 > Te
+09:30:43 029:046 > Tex
+09:30:43 029:047 > Text
+09:30:49 029:021 > Textl
+09:30:50 029:022 > Textla
+09:30:50 029:023 > Textlan
+09:30:51 029:024 > Textlang
+09:30:51 029:025 > Textlangd
+09:30:53 029:021 > langd
+
+09:31:20 031:008 > /
+09:31:21 031:009 > //
+09:31:52 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\MainWindow.xaml.cs
+----------------------------------------
+09:31:55 031:011 > // s
+09:31:55 031:012 > // sk
+09:31:56 031:013 > // skr
+09:31:56 031:014 > // skri
+09:31:56 031:015 > // skriv
+09:31:57 031:017 > // skriv s
+09:31:57 031:018 > // skriv sa
+09:31:58 031:019 > // skriv sam
+09:31:58 031:020 > // skriv samm
+09:31:58 031:021 > // skriv samma
+09:31:58 031:022 > // skriv samman
+09:31:59 031:023 > // skriv sammanf
+09:31:59 031:024 > // skriv sammanfa
+09:31:59 031:025 > // skriv sammanfat
+09:31:59 031:026 > // skriv sammanfatt
+09:32:00 031:027 > // skriv sammanfattn
+09:32:00 031:028 > // skriv sammanfattni
+09:32:00 031:029 > // skriv sammanfattnin
+09:32:01 031:030 > // skriv sammanfattning
+
+09:32:06 032:008 > t
+09:32:07 032:009 > tx
+09:32:07 032:010 > txb
+09:32:35 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\MainWindow.xaml
+----------------------------------------
+09:32:51 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\MainWindow.xaml.cs
+----------------------------------------
+09:32:53 032:011 > txbP
+09:32:54 032:012 > txbPa
+09:32:56 032:008 > txbPass
+09:32:57 032:015 > .
+09:32:58 032:016 > .T
+09:32:58 032:017 > .Te
+09:32:58 032:018 > .Tex
+09:32:59 032:019 > .Text
+09:33:01 032:021 > .Text =
+09:33:06 032:023 > .Text = $
+09:33:08 032:024 > ""
+09:33:13 032:025 > a
+09:33:17 032:025 > {}
+09:33:19 032:026 > A
+09:33:20 032:027 > Ak
+09:33:21 032:028 > Akt
+09:33:22 032:026 > aktivitet
+09:33:26 032:037 >  k
+09:33:26 032:038 >  ko
+09:33:27 032:039 >  kom
+09:33:27 032:040 >  komm
+09:33:27 032:041 >  komme
+09:33:27 032:042 >  kommer
+09:33:28 032:044 >  kommer a
+09:33:28 032:045 >  kommer at
+09:33:28 032:046 >  kommer att
+09:33:30 032:048 >  kommer att k
+09:33:30 032:049 >  kommer att kö
+09:33:31 032:050 >  kommer att kör
+09:33:31 032:051 >  kommer att köra
+09:33:31 032:052 >  kommer att köras
+09:33:32 032:054 >  kommer att köras i
+09:33:37 032:056 > {}
+09:33:38 032:057 > l
+09:33:39 032:058 > lä
+09:33:39 032:059 > län
+09:33:39 032:060 > läng
+09:33:40 032:061 > längd
+09:33:44 032:058 > längda
+09:33:48 032:062 > längdaT
+09:33:48 032:063 > längdaTe
+09:33:49 032:064 > längdaTex
+09:33:49 032:065 > längdaText
+09:33:52 032:057 > langdText
+09:33:55 032:068 >  m
+09:33:55 032:069 >  mi
+09:33:56 032:070 >  min
+09:34:03 032:072 >  min m
+09:34:04 032:073 >  min me
+09:34:04 032:074 >  min med
+09:34:18 032:076 >  min med d
+09:34:19 032:077 >  min med de
+09:34:19 032:078 >  min med den
+09:34:19 032:079 >  min med denn
+09:34:20 032:080 >  min med denna
+09:34:23 032:082 > {}
+09:34:24 032:083 > i
+09:34:25 032:084 > in
+09:34:26 032:085 > int
+09:34:26 032:086 > inte
+09:34:28 032:083 > intensitet
+09:34:33 032:095 > ;
+09:35:55 032:076 > ;i
+09:35:55 032:077 > ;in
+09:35:56 032:078 > ;int
+09:35:56 032:079 > ;inte
+09:35:56 032:080 > ;inten
+09:35:57 032:081 > ;intens
+09:35:57 032:082 > ;intensi
+09:35:57 032:083 > ;intensit
+09:35:58 032:084 > ;intensite
+09:35:58 032:085 > ;intensitet
+09:35:58 032:086 > ;intensitete
+09:35:59 032:087 > ;intensiteten
+09:36:06 032:101 > ;intensiteten.
+09:36:35 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\MainWindow.xaml.cs
+----------------------------------------
+
+09:36:39 034:008 > /
+09:36:39 034:009 > //
+09:36:40 034:011 > // V
+09:36:40 034:012 > // Va
+09:36:40 034:013 > // Var
+09:36:41 034:014 > // Varn
+09:36:41 034:015 > // Varna
+09:36:45 034:017 > // Varna a
+09:36:45 034:018 > // Varna an
+09:36:45 034:019 > // Varna anv
+09:36:46 034:020 > // Varna anvä
+09:36:46 034:021 > // Varna använ
+09:36:46 034:022 > // Varna använd
+09:36:46 034:023 > // Varna använda
+09:36:47 034:024 > // Varna användar
+09:36:47 034:025 > // Varna användare
+09:36:47 034:026 > // Varna användaren
+09:36:48 034:028 > // Varna användaren v
+09:36:49 034:029 > // Varna användaren vi
+09:36:49 034:030 > // Varna användaren vid
+09:36:50 034:032 > // Varna användaren vid f
+09:36:50 034:033 > // Varna användaren vid fe
+09:36:50 034:034 > // Varna användaren vid fel
+09:37:01 034:036 > // Varna användaren vid fel i
+09:37:01 034:037 > // Varna användaren vid fel in
+09:37:02 034:038 > // Varna användaren vid fel inm
+09:37:02 034:039 > // Varna användaren vid fel inma
+09:37:02 034:040 > // Varna användaren vid fel inmat
+09:37:03 034:041 > // Varna användaren vid fel inmatn
+09:37:03 034:042 > // Varna användaren vid fel inmatni
+09:37:03 034:043 > // Varna användaren vid fel inmatnin
+09:37:04 034:044 > // Varna användaren vid fel inmatning
+
+09:37:06 035:008 > i
+09:37:06 035:009 > if
+09:37:09 035:008 > if (condition)
+        {
+            
+        }
+        else
+        {
+            
+        }
+09:37:25 035:012 > a
+09:37:25 035:013 > ak
+09:37:27 035:012 > aktivitet
+09:37:30 035:022 >  =
+09:37:31 035:023 >  ==
+09:37:36 035:025 > ""
+
+09:37:46 037:012 > t
+09:37:46 037:013 > tx
+09:37:47 037:014 > txb
+09:37:49 037:012 > txbPass
+09:37:51 037:019 > .
+09:37:51 037:020 > .T
+09:37:52 037:021 > .Te
+09:37:52 037:022 > .Tex
+09:37:52 037:023 > .Text
+09:37:56 037:025 > .Text =
+09:38:02 037:027 > ""
+09:38:04 037:028 > A
+09:38:04 037:029 > An
+09:38:05 037:030 > Ang
+09:38:05 037:031 > Ange
+09:38:07 037:033 > Ange;
+09:38:13 037:033 > Ange; a
+09:38:13 037:034 > Ange; ak
+09:38:14 037:035 > Ange; akt
+09:38:14 037:036 > Ange; akti
+09:38:14 037:037 > Ange; aktiv
+09:38:15 037:038 > Ange; aktivi
+09:38:15 037:039 > Ange; aktivit
+09:38:15 037:040 > Ange; aktivite
+09:38:16 037:041 > Ange; aktivitet
+09:38:20 037:028 > Ange; aktivitetF
+09:38:21 037:029 > Ange; aktivitetFä
+09:38:22 037:030 > Ange; aktivitetFäl
+09:38:22 037:031 > Ange; aktivitetFält
+09:38:23 037:032 > Ange; aktivitetFälte
+09:38:23 037:033 > Ange; aktivitetFältet
+09:38:27 037:035 > Ange; aktivitetFältet a
+09:38:27 037:036 > Ange; aktivitetFältet ak
+09:38:27 037:037 > Ange; aktivitetFältet akt
+09:38:28 037:038 > Ange; aktivitetFältet akti
+09:38:28 037:039 > Ange; aktivitetFältet aktiv
+09:38:28 037:040 > Ange; aktivitetFältet aktivi
+09:38:29 037:041 > Ange; aktivitetFältet aktivit
+09:38:29 037:042 > Ange; aktivitetFältet aktivite
+09:38:29 037:043 > Ange; aktivitetFältet aktivitet
+09:38:30 037:045 > Ange; aktivitetFältet aktivitet ä
+09:38:30 037:046 > Ange; aktivitetFältet aktivitet är
+09:38:31 037:048 > Ange; aktivitetFältet aktivitet är t
+09:38:31 037:049 > Ange; aktivitetFältet aktivitet är to
+09:38:32 037:050 > Ange; aktivitetFältet aktivitet är tom
+09:38:32 037:051 > Ange; aktivitetFältet aktivitet är tomt
+09:38:35 037:052 > Ange; aktivitetFältet aktivitet är tomt.
+09:38:39 037:068 > Ange; aktivitetFältet aktivitet är tomt. !
+
+09:38:44 039:013 > i
+09:38:44 039:014 > if
+09:38:46 039:013 > if
+09:38:48 039:016 > ()
+09:39:03 039:017 > l
+09:39:04 039:018 > la
+09:39:04 039:019 > lan
+09:39:05 039:020 > lang
+09:39:05 039:021 > langd
+09:39:08 039:017 > langdText
+09:39:16 039:027 >  /
+09:39:17 039:028 >  /=
+09:39:28 039:030 >  /= 5
+09:39:30 039:031 >  /= 5-
+09:39:33 039:032 >  /= 5-1
+09:39:33 039:033 >  /= 5-10
+09:39:35 039:033 >  /= 5-108
+09:39:35 039:034 >  /= 5-1080
+09:39:44 039:031 >  /= 5-1080   "
+09:39:46 039:030 >  /= 5-1080   ""
+09:39:50 039:039 >  /= 5-1080   """
+09:39:53 039:036 >  /= 5-1080   """"
+09:40:27 039:017 >  /= 5-1080   """"i
+09:40:28 039:018 >  /= 5-1080   """"in
+09:40:28 039:019 >  /= 5-1080   """"int
+09:40:28 039:020 >  /= 5-1080   """"inte
+09:40:30 039:017 > intensitet
+09:40:36 039:028 >  /
+09:40:39 039:029 >  /=
+09:40:48 039:031 > ""
+09:40:49 039:032 > l
+09:40:50 039:033 > lå
+09:40:50 039:034 > låg
+09:41:04 039:037 > låg i
+09:41:05 039:038 > låg in
+09:41:05 039:039 > låg int
+09:41:05 039:040 > låg inte
+09:41:06 039:041 > låg inten
+09:41:06 039:042 > låg intens
+09:41:06 039:043 > låg intensi
+09:41:07 039:044 > låg intensit
+09:41:07 039:045 > låg intensite
+09:41:07 039:046 > låg intensitet
+09:41:23 039:037 > låg intensitet |
+09:41:23 039:038 > låg intensitet ||
+09:41:37 039:040 > ""
+09:41:39 039:041 > m
+09:41:40 039:042 > me
+09:41:40 039:043 > med
+09:41:40 039:044 > mede
+09:41:41 039:045 > medel
+09:41:45 039:048 > medel |
+09:41:45 039:049 > medel ||
+09:41:50 039:051 > ""
+09:41:52 039:052 > h
+09:41:52 039:053 > hö
+09:41:53 039:054 > hög
+09:42:07 039:037 > hög/
+09:42:10 039:047 > hög//
+09:42:42 039:028 > hög//=
+
+09:44:36 042:009 > }
+
+09:44:44 040:004 > {
+
+09:45:00 039:012 > /
+09:45:01 039:013 > //
+
+09:45:33 040:027 > /
+09:45:36 040:028 > /=
+
+09:47:28 039:008 > e
+09:47:28 039:009 > el
+09:47:29 039:010 > els
+09:47:29 039:011 > else
+09:47:30 039:008 > else
+09:47:30 039:013 >  i
+09:47:31 039:014 >  if
+09:47:33 039:013 > if
+09:47:34 039:016 > ()
+09:47:43 039:011 > e
+09:47:46 039:008 > else
+        {
+            
+        }
+09:47:51 039:013 >  i
+09:47:51 039:014 >  if
+09:47:51 039:013 > if
+09:47:53 039:016 > ()
+09:47:59 039:017 > l
+09:47:59 039:018 > lä
+09:48:00 039:019 > län
+09:48:00 039:020 > läng
+09:48:00 039:021 > längd
+09:48:04 039:018 > längda
+09:48:07 039:022 > längdaT
+09:48:07 039:023 > längdaTe
+09:48:07 039:024 > längdaTex
+09:48:07 039:025 > längdaText
+09:48:10 039:017 > langdText
+09:48:14 039:027 >  !
+09:48:15 039:028 >  !=
+09:48:31 039:027 >  !=<
+09:48:34 039:028 >  !=<5
+09:48:40 039:030 >  !=<5 l
+09:48:42 039:031 >  !=<5 la
+09:48:44 039:030 > langdText
+09:48:53 039:040 >  >
+09:48:59 039:040 >  ><
+09:49:03 039:040 >  ><>
+09:49:09 039:041 >  ><>1
+09:49:09 039:042 >  ><>18
+09:49:10 039:043 >  ><>180
+09:49:21 039:030 >  ><>180x
+09:50:07 039:030 >  ><>180x|
+09:50:07 039:031 >  ><>180x||
+09:50:23 039:036 >  ><>180x||<
+09:50:55 039:040 > ""
+
+09:51:03 041:012 > t
+09:51:03 041:013 > tx
+09:51:03 041:014 > txb
+09:51:06 041:012 > txbPass
+09:51:08 041:019 > .
+09:51:09 041:020 > .T
+09:51:10 041:021 > .Te
+09:51:10 041:022 > .Tex
+09:51:10 041:023 > .Text
+09:51:13 041:025 > .Text =
+09:51:17 041:027 > .Text = @
+09:51:20 041:027 > ""
+09:51:23 041:029 > ;
+
+09:51:27 039:041 > ;
+09:51:55 039:034 > ;<
+09:52:02 039:035 > ;<"
+09:52:06 039:034 > ;<""
+09:52:20 039:034 > ;<"">
+09:52:28 039:034 > ;<"">l
+09:52:29 039:035 > ;<"">la
+09:52:32 039:034 > langdText
+09:52:37 039:044 >  >
+
+09:53:02 041:028 > A
+09:53:02 041:029 > An
+09:53:03 041:030 > Ang
+09:53:03 041:031 > Ange
+09:53:08 041:028 > Ange o
+09:53:09 041:029 > Ange og
+09:53:09 041:030 > Ange ogi
+09:53:09 041:031 > Ange ogil
+09:53:10 041:032 > Ange ogilt
+09:53:11 041:033 > Ange ogilti
+09:53:11 041:034 > Ange ogiltig
+09:53:12 041:035 > Ange ogiltigt
+09:53:16 041:036 > Ange ogiltigt  t
+09:53:16 041:037 > Ange ogiltigt  ti
+09:53:17 041:038 > Ange ogiltigt  tid
+09:53:19 041:039 > Ange ogiltigt  tid!
+09:53:21 041:041 > Ange ogiltigt  tid! A
+09:53:21 041:042 > Ange ogiltigt  tid! An
+09:53:22 041:043 > Ange ogiltigt  tid! Ang
+09:53:22 041:044 > Ange ogiltigt  tid! Ange
+09:53:23 041:046 > Ange ogiltigt  tid! Ange e
+09:53:23 041:047 > Ange ogiltigt  tid! Ange en
+09:53:23 041:049 > Ange ogiltigt  tid! Ange en t
+09:53:24 041:050 > Ange ogiltigt  tid! Ange en ti
+09:53:24 041:051 > Ange ogiltigt  tid! Ange en tid
+09:53:25 041:053 > Ange ogiltigt  tid! Ange en tid m
+09:53:25 041:054 > Ange ogiltigt  tid! Ange en tid me
+09:53:25 041:055 > Ange ogiltigt  tid! Ange en tid mel
+09:53:25 041:056 > Ange ogiltigt  tid! Ange en tid mell
+09:53:26 041:057 > Ange ogiltigt  tid! Ange en tid mella
+09:53:26 041:058 > Ange ogiltigt  tid! Ange en tid mellan
+09:53:32 041:060 > Ange ogiltigt  tid! Ange en tid mellan 5
+09:53:34 041:061 > Ange ogiltigt  tid! Ange en tid mellan 5-
+09:53:35 041:062 > Ange ogiltigt  tid! Ange en tid mellan 5-1
+09:53:36 041:063 > Ange ogiltigt  tid! Ange en tid mellan 5-18
+09:53:36 041:064 > Ange ogiltigt  tid! Ange en tid mellan 5-180
+09:53:37 041:066 > Ange ogiltigt  tid! Ange en tid mellan 5-180 m
+09:53:37 041:067 > Ange ogiltigt  tid! Ange en tid mellan 5-180 mi
+09:53:37 041:068 > Ange ogiltigt  tid! Ange en tid mellan 5-180 min
+
+09:53:47 043:008 > e
+09:53:48 043:009 > el
+09:53:48 043:010 > els
+09:53:49 043:011 > else
+09:53:52 043:008 > else
+        {
+            
+        }
+09:54:11 043:013 >  i
+09:54:11 043:014 >  if
+09:54:12 043:013 > if
+09:54:14 043:016 > ()
+09:54:20 043:017 > i
+09:54:20 043:018 > in
+09:54:21 043:019 > int
+09:54:21 043:020 > inte
+09:54:21 043:021 > inten
+09:54:22 043:022 > intens
+09:54:23 043:017 > intensitet
+09:54:25 043:028 >  !
+09:54:27 043:029 >  !=
+09:54:31 043:031 > ""
+09:54:32 043:032 > l
+09:54:32 043:033 > lå
+09:54:33 043:034 > låg
+09:54:52 043:037 > låg |
+09:54:52 043:038 > låg ||
+09:55:04 043:040 > intensitet != "låg" ||
+09:55:07 043:063 > intensitet != "låg" ||
+09:55:17 043:078 > h
+09:55:18 043:079 > hö
+09:55:18 043:080 > hög
+09:55:22 043:055 > högm
+09:55:23 043:056 > högme
+09:55:23 043:057 > högmed
+09:55:23 043:058 > högmede
+09:55:23 043:059 > högmedel
+09:55:52 043:085 > intensitet != "låg" || intensitet != "medel" || intensitet != "hög"
+09:55:57 043:148 > H
+09:56:06 043:085 > H |
+09:56:06 043:086 > H ||
+09:56:12 043:126 > H ||M
+09:56:17 043:103 > H ||ML
+
+09:56:24 045:012 > t
+09:56:24 045:013 > tx
+09:56:24 045:014 > txb
+09:56:27 045:012 > txbPass
+09:56:29 045:019 > .
+09:56:29 045:020 > .T
+09:56:29 045:021 > .Te
+09:56:29 045:022 > .Tex
+09:56:30 045:023 > .Text
+09:56:32 045:025 > .Text =
+09:56:34 045:027 > ""
+09:56:39 045:028 > F
+09:56:39 045:029 > Fe
+09:56:39 045:030 > Fel
+09:56:40 045:032 > Fel i
+09:56:40 045:033 > Fel in
+09:56:40 045:034 > Fel int
+09:56:41 045:035 > Fel inte
+09:56:41 045:036 > Fel inten
+09:56:41 045:037 > Fel intens
+09:56:41 045:038 > Fel intensi
+09:56:42 045:039 > Fel intensit
+09:56:42 045:040 > Fel intensite
+09:56:42 045:041 > Fel intensitet
+09:56:50 045:042 > Fel intensitet.
+09:56:51 045:044 > Fel intensitet. A
+09:56:52 045:045 > Fel intensitet. An
+09:56:52 045:046 > Fel intensitet. Ang
+09:56:52 045:047 > Fel intensitet. Ange
+09:56:54 045:049 > Fel intensitet. Ange I
+09:56:54 045:050 > Fel intensitet. Ange In
+09:56:57 045:049 > Fel intensitet. Ange In a
+09:56:57 045:050 > Fel intensitet. Ange In an
+09:56:58 045:051 > Fel intensitet. Ange In ant
+09:56:58 045:052 > Fel intensitet. Ange In anti
+09:57:00 045:053 > Fel intensitet. Ange In antin
+09:57:00 045:054 > Fel intensitet. Ange In anting
+09:57:01 045:055 > Fel intensitet. Ange In antinge
+09:57:01 045:056 > Fel intensitet. Ange In antingen
+09:57:05 045:058 > Fel intensitet. Ange In antingen M
+09:57:06 045:059 > Fel intensitet. Ange In antingen Me
+09:57:06 045:060 > Fel intensitet. Ange In antingen Med
+09:57:07 045:061 > Fel intensitet. Ange In antingen Mede
+09:57:07 045:062 > Fel intensitet. Ange In antingen Medel
+09:57:10 045:058 > Fel intensitet. Ange In antingen MedelL
+09:57:11 045:059 > Fel intensitet. Ange In antingen MedelLå
+09:57:12 045:060 > Fel intensitet. Ange In antingen MedelLåg
+09:57:14 045:061 > Fel intensitet. Ange In antingen MedelLåg,
+09:57:15 045:063 > Fel intensitet. Ange In antingen MedelLåg, M
+09:57:15 045:064 > Fel intensitet. Ange In antingen MedelLåg, Me
+09:57:15 045:065 > Fel intensitet. Ange In antingen MedelLåg, Med
+09:57:15 045:066 > Fel intensitet. Ange In antingen MedelLåg, Mede
+09:57:16 045:067 > Fel intensitet. Ange In antingen MedelLåg, Medel
+09:57:16 045:068 > Fel intensitet. Ange In antingen MedelLåg, Medel,
+09:57:17 045:070 > Fel intensitet. Ange In antingen MedelLåg, Medel, H
+09:57:18 045:071 > Fel intensitet. Ange In antingen MedelLåg, Medel, Hö
+09:57:18 045:072 > Fel intensitet. Ange In antingen MedelLåg, Medel, Hög
+09:57:25 045:074 > Fel intensitet. Ange In antingen MedelLåg, Medel, Hög;
+
+09:58:55 047:008 > e
+09:58:55 047:009 > el
+09:58:56 047:010 > els
+09:58:56 047:011 > else
+09:59:04 047:011 > elsee
+09:59:07 047:008 > else
+        {
+            
+        }
+10:00:41 049:012 > txbPass.Text = $"{aktivitet} kommer att köras i {langdText} min med intensiteten {intensitet}.";
+10:01:21 032:000 > // Varna användaren vid fel inmatning
+10:01:22 033:000 > if (aktivitet == "")
+
+10:01:22 034:000 > {
+10:01:22 035:000 > txbPass.Text = "Fältet aktivitet är tomt. Ange aktivitet!";
+
+10:01:22 036:000 > }
+10:01:22 037:000 > else if (langdText < 5 || langdText > 180)
+
+10:01:22 038:000 > {
+10:01:23 039:000 > txbPass.Text = "ogiltig tid! Ange en tid mellan 5-180 min";
+
+10:01:23 040:000 > }
+10:01:23 041:000 > else if (intensitet != "låg" || intensitet != "medel" || intensitet != "hög" || intensitet != "Låg" || intensitet != "Medel" || intensitet != "Hög")
+
+10:01:23 042:000 > {
+10:01:23 043:000 > txbPass.Text = "Fel intensitet. Ange antingen Låg, Medel, Hög";
+
+10:01:24 044:000 > }
+10:01:24 045:000 > else
+
+10:01:24 046:000 > {
+
+10:04:21 052:004 > e
+10:04:21 052:005 > ev
+10:04:23 052:004 > private void (object sender, RoutedEventArgs e)
+    {
+        
+    }
+10:04:25 052:017 > K
+10:04:25 052:018 > Kl
+10:04:25 052:019 > Kli
+10:04:26 052:020 > Klic
+10:04:26 052:021 > Klick
+10:04:34 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\MainWindow.xaml
+----------------------------------------
+10:04:38 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\MainWindow.xaml.cs
+----------------------------------------
+10:04:42 052:022 > KlickS
+10:04:43 052:023 > KlickSp
+10:04:43 052:024 > KlickSpa
+10:04:43 052:025 > KlickSpar
+10:04:43 052:026 > KlickSpara
+
+10:04:51 057:004 > e
+10:04:51 057:005 > ev
+10:04:53 057:004 > private void (object sender, RoutedEventArgs e)
+    {
+        
+    }
+10:04:55 057:017 > K
+10:04:55 057:018 > Kl
+10:04:55 057:019 > Kli
+10:04:55 057:020 > Klic
+10:04:55 057:021 > Klick
+10:04:58 057:022 > KlickV
+10:04:58 057:023 > KlickVi
+10:04:59 057:024 > KlickVis
+10:04:59 057:025 > KlickVisa
+10:05:00 057:026 > KlickVisaP
+10:05:00 057:027 > KlickVisaPa
+10:05:00 057:028 > KlickVisaPas
+10:05:01 057:029 > KlickVisaPass
+
+10:13:45 040:085 > |
+10:13:45 040:086 > ||
+10:13:49 040:088 > intensitet != "låg" || intensitet != "medel" || intensitet != "hög"
+10:13:53 040:151 > H
+10:13:56 040:126 > HM
+10:13:59 040:103 > HML
+
+10:14:53 042:061 > /
+10:14:54 042:062 > /l
+10:14:55 042:063 > /lå
+10:14:55 042:064 > /låg
+10:14:57 042:072 > /låg/
+10:14:58 042:073 > /låg/m
+10:14:59 042:074 > /låg/me
+10:14:59 042:075 > /låg/med
+10:14:59 042:076 > /låg/mede
+10:14:59 042:077 > /låg/medel
+10:15:03 042:083 > /låg/medel/
+10:15:04 042:084 > /låg/medel/h
+10:15:04 042:085 > /låg/medel/hö
+10:15:05 042:086 > /låg/medel/hög
+10:17:53 042:073 > /låg/medel/hög"
+
+10:18:08 040:062 > e
+10:18:09 040:063 > el
+10:18:09 040:064 > ell
+10:18:09 040:065 > elle
+10:18:09 040:066 > eller
+10:18:19 040:062 > eller|
+10:18:19 040:063 > eller||
+10:19:18 031:008 > // skriv sammanfattning
+            txbPass.Text = $"{aktivitet} kommer att köras i {langdText} min med intensiteten {intensitet}.";
+
+10:29:52 057:008 > l
+10:29:52 057:009 > li
+10:29:52 057:010 > lis
+10:29:53 057:011 > list
+10:29:55 057:008 > List
+10:29:57 057:012 > <
+10:29:58 057:013 > <>
+10:30:00 057:013 > <>s
+10:30:00 057:014 > <>st
+10:30:00 057:015 > <>str
+10:30:01 057:016 > <>stri
+10:30:01 057:017 > <>strin
+10:30:01 057:018 > <>string
+10:30:11 057:021 > <>string L
+10:30:12 057:021 > <>string Ll
+10:30:12 057:022 > <>string Lli
+10:30:12 057:023 > <>string Llis
+10:30:13 057:024 > <>string Llist
+10:30:13 057:025 > <>string Llista
+10:30:14 057:026 > <>string LlistaP
+10:30:15 057:027 > <>string LlistaPa
+10:30:16 057:028 > <>string LlistaPas
+10:30:16 057:029 > <>string LlistaPass
+10:30:18 057:031 > <>string LlistaPass =
+10:30:21 057:033 > []
+10:30:23 057:035 > ;
+10:32:40 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\MainWindow.xaml
+----------------------------------------
+
+10:32:44 033:008 > l
+10:32:45 033:009 > li
+10:32:45 033:010 > lis
+10:32:46 033:008 > <ListBox></ListBox>
+10:33:01 033:017 >  n
+10:33:01 033:018 >  na
+10:33:02 033:019 >  nam
+10:33:02 033:020 >  name
+10:33:03 033:017 > Name=""
+10:33:04 033:023 > l
+10:33:05 033:024 > lb
+10:33:07 033:025 > lbl
+10:33:08 033:026 > lbli
+10:33:08 033:027 > lblis
+10:33:08 033:028 > lblist
+10:33:08 033:029 > lblista
+10:33:09 033:030 > lblistaP
+10:33:10 033:031 > lblistaPa
+10:33:10 033:032 > lblistaPas
+10:33:10 033:033 > lblistaPass
+10:33:27 033:024 > lblistaPassb
+10:33:30 033:029 > lblistaPassbl
+10:33:30 033:030 > lblistaPassbli
+10:33:33 033:025 > lblistaPassblip
+10:33:33 033:026 > lblistaPassblipa
+10:33:33 033:027 > lblistaPassblipas
+10:33:33 033:028 > lblistaPassblipass
+10:33:35 033:029 > lblistaPassblipassL
+10:33:35 033:030 > lblistaPassblipassLi
+10:33:35 033:031 > lblistaPassblipassLis
+10:33:35 033:032 > lblistaPassblipassList
+10:33:36 033:033 > lblistaPassblipassLista
+10:33:41 033:036 > lblistaPassblipassLista m
+10:33:42 033:037 > lblistaPassblipassLista ma
+10:33:42 033:038 > lblistaPassblipassLista mar
+10:33:42 033:036 > Margin=""
+10:33:44 033:044 > 1
+10:33:44 033:045 > 10
+10:33:45 033:048 > 10 p
+10:33:46 033:049 > 10 pa
+10:33:46 033:050 > 10 pad
+10:33:47 033:048 > Padding=""
+10:33:48 033:057 > 1
+10:33:48 033:058 > 10
+10:35:06 033:025 > 10a
+10:35:06 033:026 > 10an
+10:35:06 033:027 > 10ant
+10:35:07 033:028 > 10anta
+10:35:07 033:029 > 10antal
+10:35:08 033:030 > 10antalP
+10:35:09 033:031 > 10antalPa
+10:35:10 033:032 > 10antalPas
+10:35:10 033:033 > 10antalPass
+10:35:14 033:025 > 10antalPassA
+10:35:19 033:026 > 10antalPassAl
+10:35:19 033:027 > 10antalPassAll
+10:35:20 033:028 > 10antalPassAlla
+10:35:36 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\MainWindow.xaml.cs
+----------------------------------------
+
+10:35:41 059:008 > /
+10:35:41 059:009 > //
+10:35:46 059:011 > // s
+10:35:47 059:012 > // sä
+10:36:01 059:011 > // säs
+10:36:02 059:012 > // säsä
+10:36:02 059:013 > // säsät
+10:36:02 059:014 > // säsätt
+10:36:03 059:016 > // säsätt l
+10:36:03 059:017 > // säsätt li
+10:36:04 059:018 > // säsätt lis
+10:36:04 059:019 > // säsätt list
+10:36:04 059:020 > // säsätt lista
+10:36:04 059:021 > // säsätt listan
+10:36:05 059:023 > // säsätt listan s
+10:36:05 059:024 > // säsätt listan so
+10:36:06 059:025 > // säsätt listan som
+10:36:06 059:027 > // säsätt listan som k
+10:36:07 059:028 > // säsätt listan som kä
+10:36:07 059:029 > // säsätt listan som käl
+10:36:07 059:030 > // säsätt listan som käll
+10:36:07 059:031 > // säsätt listan som källa
+10:36:08 059:033 > // säsätt listan som källa f
+10:36:08 059:034 > // säsätt listan som källa fö
+10:36:08 059:035 > // säsätt listan som källa för
+10:36:09 059:037 > // säsätt listan som källa för l
+10:36:09 059:038 > // säsätt listan som källa för li
+10:36:09 059:039 > // säsätt listan som källa för lis
+10:36:09 059:040 > // säsätt listan som källa för list
+10:36:10 059:041 > // säsätt listan som källa för listb
+10:36:10 059:042 > // säsätt listan som källa för listbo
+10:36:11 059:043 > // säsätt listan som källa för listbox
+10:36:11 059:044 > // säsätt listan som källa för listbox-
+10:36:12 059:045 > // säsätt listan som källa för listbox-k
+10:36:12 059:046 > // säsätt listan som källa för listbox-ko
+10:36:12 059:047 > // säsätt listan som källa för listbox-kon
+10:36:12 059:048 > // säsätt listan som källa för listbox-kont
+10:36:13 059:049 > // säsätt listan som källa för listbox-kontr
+10:36:13 059:050 > // säsätt listan som källa för listbox-kontro
+10:36:13 059:051 > // säsätt listan som källa för listbox-kontrol
+10:36:14 059:052 > // säsätt listan som källa för listbox-kontroll
+10:36:14 059:053 > // säsätt listan som källa för listbox-kontrolle
+10:36:14 059:054 > // säsätt listan som källa för listbox-kontrollen
+
+10:36:26 060:008 > l
+10:36:27 060:009 > lb
+10:36:33 060:010 > lba
+10:36:35 060:010 > lbaA
+10:36:37 060:011 > lbaAl
+10:36:37 060:012 > lbaAll
+10:36:37 060:013 > lbaAlla
+10:36:43 060:014 > lbaAllaP
+10:36:44 060:015 > lbaAllaPa
+10:36:44 060:016 > lbaAllaPas
+10:36:45 060:017 > lbaAllaPass
+10:36:52 060:018 > lbaAllaPass.
+10:36:54 060:019 > lbaAllaPass.I
+10:36:56 060:020 > lbaAllaPass.It
+10:36:58 060:021 > lbaAllaPass.Ite
+10:36:59 060:022 > lbaAllaPass.Item
+10:37:03 060:023 > lbaAllaPass.ItemS
+10:37:04 060:024 > lbaAllaPass.ItemSc
+10:37:05 060:025 > lbaAllaPass.ItemSco
+10:37:05 060:026 > lbaAllaPass.ItemScou
+10:37:05 060:027 > lbaAllaPass.ItemScour
+10:37:06 060:028 > lbaAllaPass.ItemScourc
+10:37:06 060:029 > lbaAllaPass.ItemScource
+10:37:22 060:023 > lbaAllaPass.ItemScources
+10:37:24 060:024 > lbaAllaPass.ItemScourcesS
+10:37:30 060:031 > lbaAllaPass.ItemScourcesS =
+10:37:39 060:033 > lbaAllaPass.ItemScourcesS = l
+10:37:39 060:034 > lbaAllaPass.ItemScourcesS = li
+10:37:39 060:035 > lbaAllaPass.ItemScourcesS = lis
+10:37:40 060:036 > lbaAllaPass.ItemScourcesS = list
+10:37:40 060:037 > lbaAllaPass.ItemScourcesS = lista
+10:37:41 060:038 > lbaAllaPass.ItemScourcesS = listaP
+10:37:41 060:039 > lbaAllaPass.ItemScourcesS = listaPa
+10:37:41 060:040 > lbaAllaPass.ItemScourcesS = listaPas
+10:37:42 060:041 > lbaAllaPass.ItemScourcesS = listaPass
+10:37:44 060:033 > listaPass
+10:37:44 060:042 > ;
+10:38:28 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\MainWindow.xaml
+----------------------------------------
+10:39:21 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\MainWindow.xaml.cs
+----------------------------------------
+
+10:40:10 057:008 > L
+10:40:11 057:009 > Li
+10:40:11 057:010 > Lis
+10:40:11 057:011 > List
+10:40:14 057:008 > List
+10:40:18 057:012 > <
+10:40:19 057:013 > <>
+10:40:21 057:013 > <>s
+10:40:21 057:014 > <>st
+10:40:21 057:015 > <>str
+10:40:22 057:016 > <>stri
+10:40:22 057:017 > <>strin
+10:40:22 057:018 > <>string
+10:40:25 001:000 > using System.Text.Json.Serialization;
+10:40:25 058:013 > JsonStringEnumConverter
+
+10:40:36 058:013 > s
+10:40:39 058:019 > s>
+10:40:52 058:021 > s> l
+10:40:52 058:022 > s> li
+10:40:52 058:023 > s> lis
+10:40:52 058:024 > s> list
+10:40:52 058:025 > s> lista
+10:40:55 058:026 > s> listaP
+10:40:55 058:027 > s> listaPa
+10:40:55 058:028 > s> listaPas
+10:40:56 058:029 > s> listaPass
+10:40:58 058:031 > s> listaPass =
+10:41:53 Document switched to: c:\Users\william.larssonlaus\github-classroom\TE23E-PRRPRR01\prov-wpf-e2-TE23E-William-Lauseger\MainWindow.xaml.cs
+----------------------------------------
+10:41:56 058:033 > []
+10:41:59 058:035 > ;
+10:42:30 058:008 > ;s
+10:42:31 058:009 > ;st
+10:42:31 058:010 > ;str
+10:42:32 058:011 > ;stri
+10:42:32 058:008 > string
+10:42:37 058:015 >  l
+10:42:37 058:016 >  li
+10:42:38 058:017 >  lis
+10:42:38 058:018 >  list
+10:42:38 058:019 >  lista
+10:42:41 058:021 >  lista =
+10:42:43 058:023 >  lista = t
+10:42:43 058:024 >  lista = tx
+10:42:44 058:025 >  lista = txb
+10:42:49 058:023 > txbLista
+10:42:50 058:031 > .
+10:42:50 058:032 > .T
+10:42:51 058:033 > .Te
+10:42:51 058:034 > .Tex
+10:42:51 058:035 > .Text
+10:42:54 058:032 > Text
+10:42:54 058:036 > ;
+
+10:44:22 060:008 > f
+10:44:22 060:009 > fo
+10:44:23 060:010 > for
+10:44:24 060:011 > fore
+10:44:25 060:008 > foreach (var item in collection)
+        {
+            
+        }
+10:44:34 060:021 > l
+10:44:34 060:022 > li
+10:44:35 060:023 > lis
+10:44:35 060:024 > list
+10:44:35 060:025 > lista
+10:44:41 060:030 > listal
+10:44:41 060:031 > listali
+10:44:41 060:032 > listalis
+10:44:41 060:033 > listalist
+10:44:41 060:034 > listalista
+10:44:42 060:035 > listalistaP
+10:44:42 060:036 > listalistaPa
+10:44:43 060:037 > listalistaPas
+10:44:43 060:038 > listalistaPass
+
+10:44:55 058:020 > P
+10:44:56 058:021 > Pa
+10:44:56 058:022 > Pas
+10:44:56 058:023 > Pass
+
+10:45:25 061:012 > t
+10:45:26 061:013 > tx
+10:45:26 061:014 > txb
+10:45:27 061:012 > txbAktivitet
+10:45:27 061:024 > .
+10:45:33 061:012 > txbLista
+10:45:34 061:020 > .
+10:45:35 061:021 > .T
+10:45:35 061:022 > .TE
+10:45:35 061:023 > .TEx
+10:45:35 061:024 > .TExt
+10:45:38 061:022 > .TExte
+10:45:42 061:026 > .TExte =
+10:45:58 061:028 > ""
+10:46:02 061:029 > L
+10:46:03 061:029 > Ll
+10:46:04 061:030 > Lli
+10:46:04 061:031 > Llis
+10:46:04 061:032 > Llist
+10:46:05 061:033 > Llista
+10:46:22 061:029 > {}
+10:46:24 061:030 > l
+10:46:24 061:031 > li
+10:46:24 061:032 > lis
+10:46:24 061:033 > list
+10:46:25 061:034 > lista
+10:46:28 061:037 > lista;
+10:46:33 061:028 > lista;$
+10:48:14 061:036 > lista;$P
+10:48:16 061:037 > lista;$Pa
+10:48:16 061:038 > lista;$Pas
+10:48:16 061:039 > lista;$Pass
+
+10:48:43 059:008 > l
+10:48:44 059:009 > li
+10:48:44 059:010 > lis
+10:48:45 059:011 > list
+10:48:45 059:012 > lista
+10:48:48 059:008 > listaPass
+10:48:50 059:017 > .
+10:48:53 059:018 > Add
+10:48:58 059:021 > ()
+10:49:00 059:022 > l
+10:49:00 059:023 > li
+10:49:00 059:024 > lis
+10:49:00 059:025 > list
+10:49:01 059:026 > lista
+10:49:07 059:022 > listap
+10:49:07 059:023 > listapa
+10:49:07 059:024 > listapas
+10:49:08 059:025 > listapass
+
+10:54:26 058:033 > t
+10:54:27 058:034 > tx
+10:54:27 058:035 > txb
+10:54:30 058:033 > txbLista
+10:54:31 058:041 > .
+10:54:32 058:042 > .T
+10:54:33 058:043 > .Te
+10:54:33 058:044 > .Tex
+10:54:33 058:045 > .Text
+10:54:35 058:046 > .Text;
+10:58:18 058:008 > .Text; l
+10:58:19 058:009 > .Text; li
+10:58:19 058:010 > .Text; lis
+10:58:20 058:011 > .Text; list
+10:58:20 058:012 > .Text; lista
+10:58:21 003:000 > using System.Windows.Automation.Peers;
+10:58:21 059:008 > ListBoxAutomationPeer
+
+10:58:21 059:029 > .
+10:58:27 059:012 > .a
+10:58:32 059:008 > List
+10:58:33 059:012 > <
+10:58:34 059:013 > <>
+10:58:36 059:013 > <>s
+10:58:36 059:014 > <>st
+10:58:36 059:015 > <>str
+10:58:37 059:016 > <>stri
+10:58:37 059:017 > <>strin
+10:58:37 059:018 > <>string
+10:58:46 059:008 > <>stringl
+10:58:47 059:009 > <>stringli
+10:58:47 059:010 > <>stringlis
+10:58:47 059:011 > <>stringlist
+10:58:47 059:012 > <>stringlista
+10:58:49 059:013 > <>stringlistaP
+10:58:49 059:014 > <>stringlistaPa
+10:58:49 059:015 > <>stringlistaPas
+10:58:50 059:016 > <>stringlistaPass
+10:58:51 059:017 > <>stringlistaPass.
+10:58:52 059:018 > <>stringlistaPass.a
+10:58:55 059:019 > <>stringlistaPass.ad
+10:59:27 059:008 > <>stringlistaPass.adt
+10:59:28 059:009 > <>stringlistaPass.adtx
+10:59:28 059:010 > <>stringlistaPass.adtxb
+10:59:32 059:008 > txbPass
+10:59:43 059:015 > .
+10:59:45 059:016 > .T
+10:59:45 059:017 > .Te
+10:59:45 059:018 > .Tex
+10:59:46 059:019 > .Text
+10:59:50 059:021 > .Text =
+10:59:59 059:023 > ""
+11:00:03 059:024 > P
+11:00:04 059:025 > Pa
+11:00:04 059:026 > Pas
+11:00:04 059:027 > Pass
+11:00:05 059:028 > Passe
+11:00:05 059:029 > Passet
+11:00:18 059:031 > {}
+11:00:19 059:032 > a
+11:00:19 059:033 > ak
+11:00:19 059:034 > akt
+11:00:20 059:035 > akti
+11:00:20 059:036 > aktiv
+11:00:20 059:037 > aktivi
+11:00:21 059:038 > aktivit
+11:00:21 059:039 > aktivite
+11:00:21 059:040 > aktivitet
+11:00:29 059:023 > aktivitet$
+11:00:36 059:044 > aktivitet$ ä
+11:00:37 059:045 > aktivitet$ är
+11:00:37 059:047 > aktivitet$ är s
+11:00:38 059:048 > aktivitet$ är sp
+11:00:38 059:049 > aktivitet$ är spa
+11:00:38 059:050 > aktivitet$ är spar
+11:00:39 059:051 > aktivitet$ är spara
+11:00:39 059:052 > aktivitet$ är sparat
+11:00:40 059:053 > aktivitet$ är sparat!
+11:00:41 059:055 > aktivitet$ är sparat!;
+11:01:02 028:045 > // Mata in längd, aktivitet och intensitet
+
+11:01:02 027:045 > {
+11:01:02 026:045 > private void KlickKontrolleraPass(object sender, RoutedEventArgs e)
+11:01:26 025:000 > private void KlickKontrolleraPass(object sender, RoutedEventArgs e)
+
+11:01:27 026:000 > {
+11:01:28 027:000 > // Mata in längd, aktivitet och intensitet
+
+11:01:54 059:008 > s
+11:01:54 059:009 > st
+11:01:55 059:010 > str
+11:01:55 059:011 > stri
+11:01:56 059:012 > strin
+11:01:56 059:013 > string
+11:01:57 059:008 > string
+11:02:00 059:015 >  p
+11:02:01 059:016 >  pa
+11:02:01 059:017 >  pas
+11:02:01 059:018 >  pass
+11:02:04 059:020 >  pass =
+11:02:16 059:022 >  pass = t
+11:02:17 059:023 >  pass = tx
+11:02:17 059:024 >  pass = txb
+11:02:23 059:022 > txbPass
+11:02:26 059:029 > .
+11:02:27 059:030 > .T
+11:02:28 059:031 > .Te
+11:02:28 059:032 > .Tex
+11:02:28 059:033 > .Text
+11:02:31 059:034 > .Text;
+
+11:02:38 060:033 > p
+11:02:38 060:034 > pa
+11:02:39 060:035 > pas
+11:02:39 060:036 > pass
+
+11:06:43 065:008 > l
+11:06:44 065:009 > li
+11:06:44 065:010 > lis
+11:06:44 065:011 > list
+11:06:47 065:008 > List
+11:06:53 065:012 > <
+11:06:53 065:013 > <>
+11:06:55 065:013 > <>s
+11:06:56 065:014 > <>st
+11:06:56 065:015 > <>str
+11:06:56 065:016 > <>stri
+11:06:57 065:017 > <>strin
+11:06:57 065:018 > <>string
+11:07:07 065:021 > <>string p
+11:07:08 065:022 > <>string pa
+11:07:10 065:021 > <>string pal
+11:07:10 065:022 > <>string pali
+11:07:11 065:023 > <>string palis
+11:07:11 065:024 > <>string palist
+11:07:11 065:025 > <>string palista
+11:07:12 065:027 > <>string palista p
+11:07:12 065:028 > <>string palista pa
+11:07:12 065:029 > <>string palista pas
+11:07:13 065:030 > <>string palista pass
+11:07:17 065:027 > <>string palista passP
+11:07:22 065:031 > <>string palista passP =
+11:07:26 065:033 > []
+11:07:29 065:035 > ;
+
+11:08:41 000:000 > K
+11:08:41 000:001 > Kl
+11:08:42 000:002 > Kla
+11:08:42 000:003 > Klar
+11:08:44 000:005 > Klar u
+11:08:44 000:006 > Klar ut
+11:08:45 000:007 > Klar uto
+11:08:45 000:008 > Klar utom
+11:08:46 000:010 > Klar utom l
+11:08:46 000:011 > Klar utom li
+11:08:47 000:012 > Klar utom lis
+11:08:47 000:013 > Klar utom list
+11:08:51 000:014 > Klar utom list-
+11:08:51 000:015 > Klar utom list-d
+11:08:51 000:016 > Klar utom list-de
+11:08:52 000:017 > Klar utom list-del
+11:08:52 000:018 > Klar utom list-dele
+11:08:52 000:019 > Klar utom list-delen
