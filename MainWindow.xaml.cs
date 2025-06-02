@@ -55,14 +55,21 @@ public partial class MainWindow : Window
 
     }
 
+    List<string> listaPass = [];
     private void KlickSpara(object sender, RoutedEventArgs e)
     {
-        string pass = txbPass.Text;
+        string pass = txbAktivitet.Text;
         txbPass.Text = $"Passet {pass} är sparat!";
+
+        listaPass.Add(pass);
+
     }
 
     private void KlickVisaPass(object sender, RoutedEventArgs e)
     {
-        List<string> listaPass = [];
+        foreach (var pass in listaPass)
+        {
+            txbLista.Text += $"{pass}\n";
+        }
     }
 }
